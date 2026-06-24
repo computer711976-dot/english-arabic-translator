@@ -1,0 +1,6 @@
+{
+  "name": "English-Arabic Translator",
+  "description": "An Android-style translation app for instant text and voice translation between English and Arabic, featuring offline translation mode, history, favorites, dark mode, and integrated text-to-speech.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
