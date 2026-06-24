@@ -1,0 +1,16 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    max_build_duration: 60
+
+    environment:
+      vars:
+        PACKAGE_NAME: "com.translator.app"
+
+    scripts:
+      - npm install
+      - npm run build
+
+    artifacts:
+      - android/app/build/outputs/**/*.apk
+      - android/app/build/outputs/**/*.aab
